@@ -20,7 +20,7 @@ console.log(data.author.id);
               <img src={data.author.photo} />
 
               <div>
-                 <span style={{color:generateColor(data.author.id),}} 
+                 <span style={{color:generateColor(data.author.id,data.author.name),}} 
                  >{data.author.name}</span>
           
                  <p className="msg-text" 
