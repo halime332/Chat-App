@@ -20,7 +20,7 @@ const RoomPage = ({setRoom}) => {
       <p>Hangi Odaya Giriceksiniz</p>
       <input type="text" placeholder="ör:haftasonu" required/>
       <button>Odaya Gir</button>
-      <button onClick={()=>signOut(auth)}>Çıkış Yap</button>
+      <button onClick={() => signOut(auth)}>Çıkış Yap</button>
     </form>
   )
 };
